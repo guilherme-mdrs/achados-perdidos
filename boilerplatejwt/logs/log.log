@@ -1,0 +1,895 @@
+[2026-03-23 11:53:04,300] INFO autoreload 87 139717671998208 Watching for file changes with StatReloader
+[2026-03-23 11:53:07,466] INFO basehttp 87 139716790789824 "GET /health/ HTTP/1.1" 200 13690
+[2026-03-23 11:53:08,759] INFO basehttp 87 139716790789824 "GET / HTTP/1.1" 302 0
+[2026-03-23 11:53:08,765] INFO basehttp 87 139716790789824 "GET /admin HTTP/1.1" 301 0
+[2026-03-23 11:53:08,779] INFO basehttp 87 139716552812224 "GET /admin/ HTTP/1.1" 302 0
+[2026-03-23 11:53:08,885] INFO basehttp 87 139716552812224 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 16923
+[2026-03-23 11:53:08,982] INFO basehttp 87 139716552812224 "GET /staticfiles/admin/css/base.css HTTP/1.1" 200 21544
+[2026-03-23 11:53:08,992] INFO basehttp 87 139716790789824 "GET /staticfiles/admin/css/dark_mode.css HTTP/1.1" 200 2682
+[2026-03-23 11:53:08,994] INFO basehttp 87 139716774004416 "GET /staticfiles/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+[2026-03-23 11:53:08,995] INFO basehttp 87 139716561204928 "GET /staticfiles/admin_interface/css/changelist.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1246
+[2026-03-23 11:53:08,996] INFO basehttp 87 139716544419520 "GET /staticfiles/admin_interface/css/change-form.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1125
+[2026-03-23 11:53:08,996] INFO basehttp 87 139716782397120 "GET /staticfiles/admin_interface/css/admin-interface.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 17164
+[2026-03-23 11:53:08,999] INFO basehttp 87 139716790789824 "GET /staticfiles/admin_interface/css/fieldsets.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 499
+[2026-03-23 11:53:09,002] INFO basehttp 87 139716774004416 "GET /staticfiles/admin_interface/css/file-upload.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1169
+[2026-03-23 11:53:09,004] INFO basehttp 87 139716561204928 "GET /staticfiles/admin_interface/css/header.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1031
+[2026-03-23 11:53:09,004] INFO basehttp 87 139716544419520 "GET /staticfiles/admin_interface/css/inlines.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 2715
+[2026-03-23 11:53:09,007] INFO basehttp 87 139716782397120 "GET /staticfiles/admin_interface/css/jquery.ui.tabs.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 5558
+[2026-03-23 11:53:09,012] INFO basehttp 87 139716544419520 "GET /staticfiles/admin_interface/css/language-chooser.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1734
+[2026-03-23 11:53:09,013] INFO basehttp 87 139716782397120 "GET /staticfiles/admin_interface/css/list-filter.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 614
+[2026-03-23 11:53:09,017] INFO basehttp 87 139716544419520 "GET /staticfiles/admin_interface/css/list-filter-dropdown.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 691
+[2026-03-23 11:53:09,041] INFO basehttp 87 139716552812224 "GET /staticfiles/admin_interface/css/login.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1240
+[2026-03-23 11:53:09,045] INFO basehttp 87 139716552812224 "GET /staticfiles/admin_interface/css/modules.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 404
+[2026-03-23 11:53:09,054] INFO basehttp 87 139716774004416 "GET /staticfiles/admin_interface/css/paginator.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 797
+[2026-03-23 11:53:09,054] INFO basehttp 87 139716790789824 "GET /staticfiles/admin_interface/css/object-tools.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 319
+[2026-03-23 11:53:09,055] INFO basehttp 87 139716561204928 "GET /staticfiles/admin_interface/css/nav-sidebar.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 2025
+[2026-03-23 11:53:09,059] INFO basehttp 87 139716561204928 "GET /staticfiles/admin_interface/css/rtl.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1016
+[2026-03-23 11:53:09,062] INFO basehttp 87 139716544419520 "GET /staticfiles/admin_interface/css/tabbed-changeform.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1895
+[2026-03-23 11:53:09,062] INFO basehttp 87 139716782397120 "GET /staticfiles/admin_interface/css/sticky-form-controls.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 2437
+[2026-03-23 11:53:09,067] INFO basehttp 87 139716544419520 "GET /staticfiles/admin_interface/css/widgets.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 3944
+[2026-03-23 11:53:09,067] INFO basehttp 87 139716782397120 "GET /staticfiles/admin_interface/css/third-party/ckeditor.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 2720
+[2026-03-23 11:53:09,072] INFO basehttp 87 139716544419520 "GET /staticfiles/admin_interface/css/third-party/modeltranslation.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 356
+[2026-03-23 11:53:09,072] INFO basehttp 87 139716782397120 "GET /staticfiles/admin_interface/css/third-party/import-export.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 189
+[2026-03-23 11:53:09,091] INFO basehttp 87 139716552812224 "GET /staticfiles/admin_interface/css/third-party/rangefilter.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1238
+[2026-03-23 11:53:09,095] INFO basehttp 87 139716552812224 "GET /staticfiles/admin_interface/css/third-party/json-widget.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 993
+[2026-03-23 11:53:09,153] INFO basehttp 87 139716561204928 "GET /staticfiles/admin_interface/css/third-party/tinymce.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 78
+[2026-03-23 11:53:09,153] INFO basehttp 87 139716774004416 "GET /staticfiles/admin_interface/css/third-party/sorl-thumbnail.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1451
+[2026-03-23 11:53:09,154] INFO basehttp 87 139716790789824 "GET /staticfiles/admin_interface/css/third-party/streamfield.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 6257
+[2026-03-23 11:53:09,405] INFO basehttp 87 139716544419520 "GET /staticfiles/admin/css/login.css HTTP/1.1" 200 958
+[2026-03-23 11:53:09,406] INFO basehttp 87 139716782397120 "GET /staticfiles/admin/css/responsive.css HTTP/1.1" 200 17905
+[2026-03-23 11:53:09,406] INFO basehttp 87 139716552812224 "GET /staticfiles/admin/css/responsive.css?nocache=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 17905
+[2026-03-23 11:53:09,406] INFO basehttp 87 139716774004416 "GET /staticfiles/admin_interface/foldable-apps/foldable-apps.css?nocache=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1955
+[2026-03-23 11:53:09,407] INFO basehttp 87 139716790789824 "GET /staticfiles/admin_interface/magnific-popup/magnific-popup.css?nocache=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 6951
+[2026-03-23 11:53:09,407] INFO basehttp 87 139716561204928 "GET /staticfiles/admin/css/responsive_rtl.css?nocache=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1864
+[2026-03-23 11:53:09,719] INFO basehttp 87 139716544419520 "GET /staticfiles/admin_interface/foldable-apps/foldable-apps.js?nocache=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1750
+[2026-03-23 11:53:09,720] INFO basehttp 87 139716782397120 "GET /staticfiles/admin_interface/related-modal/related-modal.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 2867
+[2026-03-23 11:53:09,721] INFO basehttp 87 139716552812224 "GET /staticfiles/admin_interface/magnific-popup/jquery.magnific-popup.js?nocache=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 60830
+[2026-03-23 11:53:09,722] INFO basehttp 87 139716774004416 "GET /staticfiles/admin_interface/related-modal/related-modal.js?nocache=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 6919
+[2026-03-23 11:53:09,838] WARNING basehttp 87 139716561204928 "GET /staticfiles/logo/logo.png HTTP/1.1" 404 1909
+[2026-03-23 11:53:11,557] INFO basehttp 87 139716774004416 "GET /staticfiles/admin/js/theme.js HTTP/1.1" 200 1943
+[2026-03-23 11:53:11,558] INFO basehttp 87 139716552812224 "GET /staticfiles/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+[2026-03-23 11:53:11,594] WARNING log 87 139716552812224 Not Found: /favicon.ico
+[2026-03-23 11:53:11,596] WARNING basehttp 87 139716552812224 "GET /favicon.ico HTTP/1.1" 404 4040
+[2026-03-23 11:53:15,066] INFO basehttp 87 139716552812224 "GET /secret HTTP/1.1" 301 0
+[2026-03-23 11:53:15,091] INFO basehttp 87 139716774004416 "GET /secret/ HTTP/1.1" 302 0
+[2026-03-23 11:53:15,113] INFO basehttp 87 139716774004416 "GET /secret/login/?next=/secret/ HTTP/1.1" 200 17020
+[2026-03-23 11:53:30,805] INFO basehttp 87 139716774004416 "POST /secret/login/?next=/secret/ HTTP/1.1" 302 0
+[2026-03-23 11:53:30,929] INFO basehttp 87 139716774004416 "GET /secret/ HTTP/1.1" 200 26442
+[2026-03-23 11:53:30,966] INFO basehttp 87 139716774004416 "GET /staticfiles/admin/css/dashboard.css HTTP/1.1" 200 441
+[2026-03-23 11:53:31,018] INFO basehttp 87 139716774004416 "GET /staticfiles/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+[2026-03-23 11:53:31,018] INFO basehttp 87 139716544419520 "GET /staticfiles/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[2026-03-23 11:53:31,018] INFO basehttp 87 139716782397120 "GET /staticfiles/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[2026-03-23 11:53:36,277] INFO basehttp 87 139716552812224 "GET /health/ HTTP/1.1" 200 13689
+[2026-03-23 11:53:36,917] INFO basehttp 87 139716774004416 "GET /secret/users/user/ HTTP/1.1" 200 30894
+[2026-03-23 11:53:36,956] INFO basehttp 87 139716774004416 "GET /staticfiles/admin/css/changelists.css HTTP/1.1" 200 6811
+[2026-03-23 11:53:36,960] INFO basehttp 87 139716790789824 "GET /staticfiles/admin/js/jquery.init.js HTTP/1.1" 200 347
+[2026-03-23 11:53:36,971] INFO basehttp 87 139716527634112 "GET /staticfiles/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+[2026-03-23 11:53:36,971] INFO basehttp 87 139716790789824 "GET /staticfiles/admin/js/urlify.js HTTP/1.1" 200 7887
+[2026-03-23 11:53:36,971] INFO basehttp 87 139716552812224 "GET /staticfiles/admin/js/core.js HTTP/1.1" 200 6208
+[2026-03-23 11:53:36,972] INFO basehttp 87 139716774004416 "GET /staticfiles/admin/js/actions.js HTTP/1.1" 200 8067
+[2026-03-23 11:53:36,992] INFO basehttp 87 139716790789824 "GET /staticfiles/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[2026-03-23 11:53:36,994] INFO basehttp 87 139716527634112 "GET /staticfiles/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[2026-03-23 11:53:36,995] INFO basehttp 87 139716774004416 "GET /staticfiles/admin/img/search.svg HTTP/1.1" 200 458
+[2026-03-23 11:53:36,996] INFO basehttp 87 139716782397120 "GET /secret/jsi18n/ HTTP/1.1" 200 8958
+[2026-03-23 11:53:36,997] INFO basehttp 87 139716544419520 "GET /staticfiles/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+[2026-03-23 11:53:37,004] INFO basehttp 87 139716552812224 "GET /staticfiles/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+[2026-03-23 11:53:37,018] INFO basehttp 87 139716552812224 "GET /staticfiles/admin/js/filters.js HTTP/1.1" 200 978
+[2026-03-23 11:53:37,020] INFO basehttp 87 139716544419520 "GET /staticfiles/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[2026-03-23 11:53:38,328] INFO basehttp 87 139716544419520 "GET /secret/users/user/1/change/ HTTP/1.1" 200 55044
+[2026-03-23 11:53:38,368] INFO basehttp 87 139716544419520 "GET /staticfiles/admin/css/forms.css HTTP/1.1" 200 9090
+[2026-03-23 11:53:38,370] INFO basehttp 87 139716527634112 "GET /staticfiles/admin/js/SelectBox.js HTTP/1.1" 200 4530
+[2026-03-23 11:53:38,370] INFO basehttp 87 139716790789824 "GET /staticfiles/admin/js/calendar.js HTTP/1.1" 200 9141
+[2026-03-23 11:53:38,371] INFO basehttp 87 139716774004416 "GET /staticfiles/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+[2026-03-23 11:53:38,371] INFO basehttp 87 139716782397120 "GET /staticfiles/admin/js/inlines.js HTTP/1.1" 200 15526
+[2026-03-23 11:53:38,378] INFO basehttp 87 139716527634112 "GET /staticfiles/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+[2026-03-23 11:53:38,380] INFO basehttp 87 139716790789824 "GET /staticfiles/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[2026-03-23 11:53:38,383] INFO basehttp 87 139716552812224 "GET /secret/jsi18n/ HTTP/1.1" 200 8958
+[2026-03-23 11:53:38,424] INFO basehttp 87 139716544419520 "GET /staticfiles/admin/js/change_form.js HTTP/1.1" 200 606
+[2026-03-23 11:53:38,425] INFO basehttp 87 139716552812224 "GET /staticfiles/admin/css/widgets.css HTTP/1.1" 200 11800
+[2026-03-23 11:53:38,562] INFO basehttp 87 139716544419520 "GET /staticfiles/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+[2026-03-23 11:53:38,562] INFO basehttp 87 139716790789824 "GET /staticfiles/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[2026-03-23 11:53:38,562] INFO basehttp 87 139716552812224 "GET /staticfiles/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+[2026-03-23 11:53:40,552] INFO basehttp 87 139716552812224 "POST /secret/logout/ HTTP/1.1" 200 16439
+[2026-09-14 08:07:16,319] INFO autoreload 61 140316878353216 Watching for file changes with StatReloader
+[2026-09-14 08:07:20,159] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:07:20,160] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-14 08:07:20,160] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 46392)
+[2026-09-14 08:07:25,530] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:07:25,532] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13714
+[2026-09-14 08:07:25,533] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 49276)
+[2026-09-14 08:07:55,649] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:07:55,650] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-14 08:07:55,650] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 56978)
+[2026-09-14 08:08:25,821] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:08:25,821] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-14 08:08:25,822] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 36904)
+[2026-09-14 08:08:55,935] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:08:55,935] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-14 08:08:55,935] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 45618)
+[2026-09-14 08:09:26,059] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:09:26,059] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-14 08:09:26,059] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 39208)
+[2026-09-14 08:09:56,235] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:09:56,235] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-14 08:09:56,235] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 47772)
+[2026-09-14 08:10:26,336] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:10:26,336] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-14 08:10:26,336] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 53400)
+[2026-09-14 08:10:56,458] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:10:56,458] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-14 08:10:56,458] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 44808)
+[2026-09-14 08:11:26,637] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:11:26,638] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-14 08:11:26,638] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 35534)
+[2026-09-14 08:11:56,762] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:11:56,762] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-14 08:11:56,763] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 32798)
+[2026-09-14 08:12:26,935] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:12:26,935] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-14 08:12:26,935] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 55104)
+[2026-09-14 08:12:57,054] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:12:57,055] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-14 08:12:57,055] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 56730)
+[2026-09-14 08:13:27,159] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:13:27,159] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-14 08:13:27,159] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 53378)
+[2026-09-14 08:13:57,331] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:13:57,332] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-14 08:13:57,333] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 60976)
+[2026-09-14 08:14:27,439] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:14:27,439] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-14 08:14:27,440] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 35290)
+[2026-09-14 08:14:57,661] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:14:57,662] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13713
+[2026-09-14 08:14:57,663] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 33374)
+[2026-09-14 08:15:27,748] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:15:27,748] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-14 08:15:27,749] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 51102)
+[2026-09-14 08:15:57,854] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:15:57,854] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-14 08:15:57,854] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 60330)
+[2026-09-14 08:16:28,058] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:16:28,058] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13713
+[2026-09-14 08:16:28,059] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 41344)
+[2026-09-14 08:16:58,135] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:16:58,135] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-14 08:16:58,135] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 49318)
+[2026-09-14 08:17:28,314] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:17:28,315] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-14 08:17:28,315] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 44814)
+[2026-09-14 08:17:58,631] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:17:58,632] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13713
+[2026-09-14 08:17:58,633] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 34050)
+[2026-09-14 08:18:28,759] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:18:28,759] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-14 08:18:28,759] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 33388)
+[2026-09-14 08:18:59,027] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:18:59,028] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13713
+[2026-09-14 08:18:59,029] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 52294)
+[2026-09-14 08:19:29,137] ERROR log 61 140316364494528 Internal Server Error: /health/
+[2026-09-14 08:19:29,137] ERROR basehttp 61 140316364494528 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-14 08:19:29,138] INFO basehttp 61 140316364494528 - Broken pipe from ('127.0.0.1', 38098)
+[2026-09-14 08:19:53,270] INFO autoreload 61 140316878353216 /app/boilerplatejwt/settings/base.py changed, reloading.
+[2026-09-14 08:19:57,557] INFO autoreload 454 140467327775552 Watching for file changes with StatReloader
+[2026-09-14 08:19:59,427] ERROR log 454 140466814949056 Internal Server Error: /health/
+[2026-09-14 08:19:59,427] ERROR basehttp 454 140466814949056 "GET /health/ HTTP/1.1" 500 13713
+[2026-09-14 08:19:59,428] INFO basehttp 454 140466814949056 - Broken pipe from ('127.0.0.1', 38674)
+[2026-09-14 08:20:00,134] INFO autoreload 454 140467327775552 /app/boilerplatejwt/settings/base.py changed, reloading.
+[2026-09-14 08:20:02,323] INFO autoreload 476 140479215137600 Watching for file changes with StatReloader
+[2026-09-14 08:20:05,244] INFO autoreload 476 140479215137600 /app/boilerplatejwt/settings/base.py changed, reloading.
+[2026-09-14 08:20:07,039] INFO autoreload 478 139971062199104 Watching for file changes with StatReloader
+[2026-09-14 10:13:04,777] INFO autoreload 478 139971062199104 /app/apps/achados/apps.py changed, reloading.
+[2026-09-14 10:13:08,017] INFO autoreload 2069 140671829353280 Watching for file changes with StatReloader
+[2026-09-14 10:13:20,931] INFO autoreload 2069 140671829353280 /app/apps/achados/apps.py changed, reloading.
+[2026-09-14 10:13:24,358] INFO autoreload 2084 140276534444864 Watching for file changes with StatReloader
+[2026-09-14 10:13:26,810] INFO autoreload 2084 140276534444864 /app/apps/achados/apps.py changed, reloading.
+[2026-09-14 10:13:30,161] INFO autoreload 2093 140117102117696 Watching for file changes with StatReloader
+[2026-09-14 10:15:12,728] INFO autoreload 2093 140117102117696 /app/apps/achados/models.py changed, reloading.
+[2026-09-14 10:15:16,121] INFO autoreload 2136 140697936012096 Watching for file changes with StatReloader
+[2026-09-14 10:15:17,766] INFO autoreload 2136 140697936012096 /app/apps/achados/models.py changed, reloading.
+[2026-09-14 10:15:21,462] INFO autoreload 2145 140059709129536 Watching for file changes with StatReloader
+[2026-09-14 10:15:25,178] INFO autoreload 2145 140059709129536 /app/apps/achados/models.py changed, reloading.
+[2026-09-14 10:15:28,456] INFO autoreload 2161 140343150342976 Watching for file changes with StatReloader
+[2026-09-14 10:15:41,265] INFO autoreload 2161 140343150342976 /app/apps/achados/models.py changed, reloading.
+[2026-09-14 10:15:44,547] INFO autoreload 2170 140611039699776 Watching for file changes with StatReloader
+[2026-09-14 10:15:47,097] INFO autoreload 2170 140611039699776 /app/apps/achados/models.py changed, reloading.
+[2026-09-14 10:15:50,954] INFO autoreload 2179 139826558518080 Watching for file changes with StatReloader
+[2026-09-14 10:15:58,704] INFO autoreload 2179 139826558518080 /app/apps/achados/models.py changed, reloading.
+[2026-09-14 10:16:02,250] INFO autoreload 2195 140701732528960 Watching for file changes with StatReloader
+[2026-09-14 10:16:27,280] INFO autoreload 2195 140701732528960 /app/apps/achados/models.py changed, reloading.
+[2026-09-14 10:16:30,842] INFO autoreload 2224 140517234651968 Watching for file changes with StatReloader
+[2026-09-14 10:16:33,347] INFO autoreload 2224 140517234651968 /app/apps/achados/models.py changed, reloading.
+[2026-09-14 10:16:37,022] INFO autoreload 2233 140553187590976 Watching for file changes with StatReloader
+[2026-09-14 10:16:40,708] INFO autoreload 2233 140553187590976 /app/apps/achados/models.py changed, reloading.
+[2026-09-14 10:16:44,353] INFO autoreload 2242 140312535839552 Watching for file changes with StatReloader
+[2026-09-14 10:16:47,913] INFO autoreload 2242 140312535839552 /app/apps/achados/models.py changed, reloading.
+[2026-09-14 10:16:52,136] INFO autoreload 2251 139700555080512 Watching for file changes with StatReloader
+[2026-09-14 10:16:53,754] INFO autoreload 2251 139700555080512 /app/apps/achados/models.py changed, reloading.
+[2026-09-14 10:16:57,229] INFO autoreload 2267 140079046562624 Watching for file changes with StatReloader
+[2026-09-14 10:17:02,918] INFO autoreload 2267 140079046562624 /app/apps/achados/models.py changed, reloading.
+[2026-09-14 10:17:06,558] INFO autoreload 2276 140277005198144 Watching for file changes with StatReloader
+[2026-09-14 10:17:08,058] INFO autoreload 2276 140277005198144 /app/apps/achados/models.py changed, reloading.
+[2026-09-14 10:17:11,530] INFO autoreload 2285 140693538079552 Watching for file changes with StatReloader
+[2026-09-14 10:17:16,282] INFO autoreload 2285 140693538079552 /app/apps/achados/models.py changed, reloading.
+[2026-09-14 10:17:19,826] INFO autoreload 2294 139658313601856 Watching for file changes with StatReloader
+[2026-09-14 10:17:21,437] INFO autoreload 2294 139658313601856 /app/apps/achados/models.py changed, reloading.
+[2026-09-14 10:17:25,017] INFO autoreload 2310 139726746018624 Watching for file changes with StatReloader
+[2026-09-14 10:18:10,407] INFO autoreload 2310 139726746018624 /app/apps/achados/models.py changed, reloading.
+[2026-09-14 10:18:13,838] INFO autoreload 2339 139681199133504 Watching for file changes with StatReloader
+[2026-09-14 10:18:24,659] INFO autoreload 2339 139681199133504 /app/apps/achados/models.py changed, reloading.
+[2026-09-14 10:18:28,361] INFO autoreload 2368 139899518354240 Watching for file changes with StatReloader
+[2026-09-14 10:19:10,656] INFO autoreload 2368 139899518354240 /app/apps/achados/models.py changed, reloading.
+[2026-09-14 10:19:14,232] INFO autoreload 2397 139806812209984 Watching for file changes with StatReloader
+[2026-09-14 10:20:36,228] INFO autoreload 2397 139806812209984 /app/apps/achados/models.py changed, reloading.
+[2026-09-14 10:20:39,720] INFO autoreload 2440 140362399306560 Watching for file changes with StatReloader
+[2026-09-14 10:46:45,923] INFO autoreload 68 140079306109760 Watching for file changes with StatReloader
+[2026-09-14 10:46:48,855] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 10:47:19,510] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-14 10:47:49,624] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 10:48:19,911] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-14 10:48:50,036] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 10:49:20,125] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 10:49:50,217] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 10:50:20,308] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 10:50:50,431] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 10:51:20,688] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-14 10:51:50,814] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 10:52:20,930] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 10:52:51,084] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 10:53:21,211] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 10:53:51,400] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 10:54:21,490] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 10:54:51,597] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 10:55:21,717] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 10:55:51,814] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 10:56:21,992] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 10:56:52,177] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 10:57:22,300] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 10:57:52,401] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 10:58:22,596] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-14 10:58:52,799] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-14 10:59:22,985] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-14 10:59:53,189] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-14 11:00:23,372] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:00:53,487] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:01:23,685] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-14 11:01:53,880] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-14 11:02:24,165] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-14 11:02:54,342] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:03:24,630] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-14 11:03:54,834] INFO basehttp 68 140078792214208 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:04:07,189] INFO autoreload 68 140079306109760 /app/boilerplatejwt/router/api_v1_0.py changed, reloading.
+[2026-09-14 11:04:11,270] INFO autoreload 556 140225416803136 Watching for file changes with StatReloader
+[2026-09-14 11:06:03,025] INFO autoreload 556 140225416803136 /app/boilerplatejwt/router/api_v1_0.py changed, reloading.
+[2026-09-14 11:06:13,949] INFO autoreload 606 140618150560576 Watching for file changes with StatReloader
+[2026-09-14 11:06:25,419] INFO basehttp 606 140617564812992 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-14 11:06:55,551] INFO basehttp 606 140617564812992 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:07:25,728] INFO basehttp 606 140617564812992 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:07:33,648] INFO autoreload 606 140618150560576 /app/boilerplatejwt/router/api_v1_0.py changed, reloading.
+[2026-09-14 11:07:38,050] INFO autoreload 666 139895097279296 Watching for file changes with StatReloader
+[2026-09-14 11:07:44,309] INFO autoreload 666 139895097279296 /app/boilerplatejwt/router/api_v1_0.py changed, reloading.
+[2026-09-14 11:07:48,628] INFO autoreload 675 140451708552000 Watching for file changes with StatReloader
+[2026-09-14 11:07:54,664] INFO autoreload 675 140451708552000 /app/boilerplatejwt/router/api_v1_0.py changed, reloading.
+[2026-09-14 11:07:59,353] INFO autoreload 684 140305625105216 Watching for file changes with StatReloader
+[2026-09-14 11:08:03,592] INFO autoreload 684 140305625105216 /app/boilerplatejwt/router/api_v1_0.py changed, reloading.
+[2026-09-14 11:08:08,023] INFO autoreload 700 139767767610176 Watching for file changes with StatReloader
+[2026-09-14 11:08:09,843] INFO autoreload 700 139767767610176 /app/boilerplatejwt/router/api_v1_0.py changed, reloading.
+[2026-09-14 11:08:13,957] INFO autoreload 709 140569263395648 Watching for file changes with StatReloader
+[2026-09-14 11:08:16,348] INFO autoreload 709 140569263395648 /app/boilerplatejwt/router/api_v1_0.py changed, reloading.
+[2026-09-14 11:08:20,639] INFO autoreload 718 140676717343552 Watching for file changes with StatReloader
+[2026-09-14 11:08:26,319] INFO basehttp 718 140676136310464 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:08:56,431] INFO basehttp 718 140676136310464 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:09:26,550] INFO basehttp 718 140676136310464 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:09:56,642] INFO basehttp 718 140676136310464 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:10:27,021] INFO basehttp 718 140676136310464 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-14 11:10:57,123] INFO basehttp 718 140676136310464 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:11:27,498] INFO basehttp 718 140676136310464 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-14 11:11:57,822] INFO basehttp 718 140676136310464 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-14 11:12:21,859] WARNING log 718 140676136310464 Unauthorized: /api/v1/achados/categorias/
+[2026-09-14 11:12:21,859] WARNING basehttp 718 140676136310464 "GET /api/v1/achados/categorias/ HTTP/1.1" 401 10106
+[2026-09-14 11:12:21,893] INFO basehttp 718 140676136310464 "GET /staticfiles/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[2026-09-14 11:12:21,899] INFO basehttp 718 140676100642496 "GET /staticfiles/rest_framework/css/default.css HTTP/1.1" 200 1152
+[2026-09-14 11:12:21,899] INFO basehttp 718 140676136310464 "GET /staticfiles/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+[2026-09-14 11:12:21,900] INFO basehttp 718 140676092233408 "GET /staticfiles/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+[2026-09-14 11:12:21,901] INFO basehttp 718 140676111132352 "GET /staticfiles/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[2026-09-14 11:12:21,903] INFO basehttp 718 140675748198080 "GET /staticfiles/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+[2026-09-14 11:12:21,903] INFO basehttp 718 140676125820608 "GET /staticfiles/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+[2026-09-14 11:12:21,910] INFO basehttp 718 140676092233408 "GET /staticfiles/rest_framework/js/default.js HTTP/1.1" 200 1268
+[2026-09-14 11:12:21,911] INFO basehttp 718 140676111132352 "GET /staticfiles/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+[2026-09-14 11:12:21,911] INFO basehttp 718 140676136310464 "GET /staticfiles/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+[2026-09-14 11:12:21,911] INFO basehttp 718 140676100642496 "GET /staticfiles/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[2026-09-14 11:12:21,918] INFO basehttp 718 140676100642496 "GET /staticfiles/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[2026-09-14 11:12:21,990] WARNING log 718 140676100642496 Not Found: /favicon.ico
+[2026-09-14 11:12:21,990] WARNING basehttp 718 140676100642496 "GET /favicon.ico HTTP/1.1" 404 4040
+[2026-09-14 11:12:27,997] INFO basehttp 718 140675739805376 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:12:58,790] INFO basehttp 718 140675739805376 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-14 11:13:28,912] INFO basehttp 718 140675739805376 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:13:56,401] WARNING log 718 140675739805376 Unauthorized: /api/v1/user/token/
+[2026-09-14 11:13:56,402] WARNING basehttp 718 140675739805376 "POST /api/v1/user/token/ HTTP/1.1" 401 45
+[2026-09-14 11:13:59,101] INFO basehttp 718 140675739805376 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:14:27,282] WARNING log 718 140675739805376 Unauthorized: /api/v1/user/token/
+[2026-09-14 11:14:27,283] WARNING basehttp 718 140675739805376 "POST /api/v1/user/token/ HTTP/1.1" 401 45
+[2026-09-14 11:14:29,205] INFO basehttp 718 140675739805376 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:14:59,333] INFO basehttp 718 140675739805376 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:15:29,801] INFO basehttp 718 140675739805376 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-14 11:15:59,924] INFO basehttp 718 140675739805376 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:16:14,226] WARNING log 718 140675739805376 Bad Request: /api/v1/user/token/
+[2026-09-14 11:16:14,226] WARNING basehttp 718 140675739805376 "POST /api/v1/user/token/ HTTP/1.1" 400 88
+[2026-09-14 11:16:30,172] INFO basehttp 718 140675739805376 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-14 11:16:48,914] INFO basehttp 718 140675739805376 "POST /api/v1/user/token/ HTTP/1.1" 200 663
+[2026-09-14 11:17:00,309] INFO basehttp 718 140675739805376 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:17:05,513] INFO basehttp 718 140675739805376 "POST /api/v1/user/token/ HTTP/1.1" 200 663
+[2026-09-14 11:17:30,411] INFO basehttp 718 140675739805376 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:17:53,366] WARNING log 718 140675739805376 Unauthorized: /api/v1/achados/categorias/
+[2026-09-14 11:17:53,367] WARNING basehttp 718 140675739805376 "GET /api/v1/achados/categorias/ HTTP/1.1" 401 209
+[2026-09-14 11:18:00,598] INFO basehttp 718 140675739805376 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-14 11:18:30,811] INFO basehttp 718 140675739805376 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-14 11:19:00,992] INFO basehttp 718 140675739805376 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:19:07,049] INFO basehttp 718 140675739805376 "GET /api/v1/achados/categorias/ HTTP/1.1" 200 2
+[2026-09-14 11:19:31,107] INFO basehttp 718 140676136310464 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:19:36,322] WARNING log 718 140676136310464 Unauthorized: /api/v1/achados/categorias/
+[2026-09-14 11:19:36,323] WARNING basehttp 718 140676136310464 "POST /api/v1/achados/categorias/ HTTP/1.1" 401 209
+[2026-09-14 11:20:01,197] INFO basehttp 718 140676136310464 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:20:22,036] INFO basehttp 718 140676136310464 "POST /api/v1/achados/categorias/ HTTP/1.1" 201 301
+[2026-09-14 11:20:31,301] INFO basehttp 718 140676136310464 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:21:01,486] INFO basehttp 718 140676136310464 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-14 11:21:31,657] INFO basehttp 718 140676136310464 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:22:01,256] INFO autoreload 718 140676717343552 /app/apps/achados/models.py changed, reloading.
+[2026-09-14 11:22:04,857] INFO autoreload 1111 140283232817984 Watching for file changes with StatReloader
+[2026-09-14 11:22:32,048] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:23:02,178] ERROR log 1111 140282718930624 Internal Server Error: /health/
+[2026-09-14 11:23:02,179] ERROR basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 500 13724
+[2026-09-14 11:23:02,180] INFO basehttp 1111 140282718930624 - Broken pipe from ('127.0.0.1', 47984)
+[2026-09-14 11:23:33,662] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13691
+[2026-09-14 11:24:03,851] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:24:11,872] WARNING log 1111 140282718930624 Unauthorized: /api/v1/achados/categorias/
+[2026-09-14 11:24:11,873] WARNING basehttp 1111 140282718930624 "POST /api/v1/achados/categorias/ HTTP/1.1" 401 209
+[2026-09-14 11:24:33,964] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:25:04,060] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:25:27,140] INFO basehttp 1111 140282718930624 "POST /api/v1/achados/categorias/ HTTP/1.1" 201 349
+[2026-09-14 11:25:34,157] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:26:04,369] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-14 11:26:34,527] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:26:52,673] INFO basehttp 1111 140282718930624 "POST /api/v1/achados/locais/ HTTP/1.1" 201 326
+[2026-09-14 11:27:04,651] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:27:34,833] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:28:04,960] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:28:35,466] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-14 11:29:05,840] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-14 11:29:35,931] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:30:06,033] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:30:36,263] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-14 11:31:06,349] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:31:36,657] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-14 11:32:06,750] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:32:36,842] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:33:06,929] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:33:37,055] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:34:07,223] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-14 11:34:37,320] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:35:07,499] INFO basehttp 1111 140282718930624 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:35:17,400] INFO autoreload 1111 140283232817984 /app/apps/achados/api/v1/viewsets.py changed, reloading.
+[2026-09-14 11:35:21,818] INFO autoreload 1487 140569554260800 Watching for file changes with StatReloader
+[2026-09-14 11:35:24,292] INFO autoreload 1487 140569554260800 /app/apps/achados/api/v1/viewsets.py changed, reloading.
+[2026-09-14 11:35:28,695] INFO autoreload 1496 139953153459008 Watching for file changes with StatReloader
+[2026-09-14 11:35:37,692] INFO basehttp 1496 139952571545280 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:36:09,085] INFO basehttp 1496 139952571545280 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-14 11:36:39,285] INFO basehttp 1496 139952571545280 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:37:09,404] INFO basehttp 1496 139952571545280 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:37:39,520] INFO basehttp 1496 139952571545280 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:37:46,503] INFO autoreload 1496 139953153459008 /app/apps/achados/api/v1/viewsets.py changed, reloading.
+[2026-09-14 11:37:50,677] INFO autoreload 1583 140011980038976 Watching for file changes with StatReloader
+[2026-09-14 11:38:04,609] INFO autoreload 1583 140011980038976 /app/apps/achados/api/v1/viewsets.py changed, reloading.
+[2026-09-14 11:38:08,823] INFO autoreload 1592 139666474877760 Watching for file changes with StatReloader
+[2026-09-14 11:38:40,207] INFO basehttp 1592 139665892964032 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-14 11:39:10,681] INFO basehttp 1592 139665892964032 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-14 11:39:14,195] WARNING log 1592 139665892964032 Bad Request: /api/v1/achados/objetos/
+[2026-09-14 11:39:14,195] WARNING basehttp 1592 139665892964032 "POST /api/v1/achados/objetos/ HTTP/1.1" 400 72
+[2026-09-14 11:39:20,510] WARNING log 1592 139665892964032 Bad Request: /api/v1/achados/objetos/
+[2026-09-14 11:39:20,511] WARNING basehttp 1592 139665892964032 "POST /api/v1/achados/objetos/ HTTP/1.1" 400 72
+[2026-09-14 11:39:40,807] INFO basehttp 1592 139665892964032 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:40:10,890] INFO basehttp 1592 139665892964032 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:40:17,496] INFO autoreload 1592 139666474877760 /app/apps/achados/api/v1/serializers.py changed, reloading.
+[2026-09-14 11:40:22,215] INFO autoreload 1675 140138248946496 Watching for file changes with StatReloader
+[2026-09-14 11:40:41,099] INFO basehttp 1675 140137667229376 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:41:11,319] INFO basehttp 1675 140137667229376 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-14 11:41:15,073] WARNING log 1675 140137667229376 Bad Request: /api/v1/achados/objetos/
+[2026-09-14 11:41:15,076] WARNING basehttp 1675 140137667229376 "POST /api/v1/achados/objetos/ HTTP/1.1" 400 72
+[2026-09-14 11:41:41,406] INFO basehttp 1675 140137667229376 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:42:12,117] INFO basehttp 1675 140137667229376 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-14 11:42:42,393] INFO basehttp 1675 140137667229376 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-14 11:43:12,558] INFO basehttp 1675 140137667229376 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:43:42,676] INFO basehttp 1675 140137667229376 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:44:12,771] INFO basehttp 1675 140137667229376 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:44:42,872] INFO basehttp 1675 140137667229376 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:45:12,964] INFO basehttp 1675 140137667229376 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:45:43,142] INFO basehttp 1675 140137667229376 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:46:13,262] INFO basehttp 1675 140137667229376 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:46:43,389] INFO basehttp 1675 140137667229376 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:47:13,561] INFO basehttp 1675 140137667229376 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:47:43,657] INFO basehttp 1675 140137667229376 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-14 11:48:13,956] INFO basehttp 1675 140137667229376 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-14 11:48:39,057] INFO autoreload 1675 140138248946496 /app/apps/achados/api/v1/serializers.py changed, reloading.
+[2026-09-14 11:48:43,563] INFO autoreload 1905 140400165581632 Watching for file changes with StatReloader
+[2026-09-15 07:51:37,344] INFO autoreload 470 140349547782976 Watching for file changes with StatReloader
+[2026-09-15 07:51:45,879] ERROR log 470 140349033928384 Internal Server Error: /health/
+[2026-09-15 07:51:45,928] ERROR basehttp 470 140349033928384 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-15 07:51:45,929] INFO basehttp 470 140349033928384 - Broken pipe from ('127.0.0.1', 42964)
+[2026-09-15 07:52:25,245] INFO autoreload 61 140157952656192 Watching for file changes with StatReloader
+[2026-09-15 07:52:28,726] ERROR log 61 140157438764736 Internal Server Error: /health/
+[2026-09-15 07:52:28,726] ERROR basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-15 07:52:28,727] INFO basehttp 61 140157438764736 - Broken pipe from ('127.0.0.1', 37970)
+[2026-09-15 07:52:33,866] ERROR log 61 140157438764736 Internal Server Error: /health/
+[2026-09-15 07:52:33,866] ERROR basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 500 13712
+[2026-09-15 07:52:33,866] INFO basehttp 61 140157438764736 - Broken pipe from ('127.0.0.1', 48300)
+[2026-09-15 07:53:04,334] ERROR log 61 140157438764736 Internal Server Error: /health/
+[2026-09-15 07:53:04,336] ERROR basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 500 13714
+[2026-09-15 07:53:04,337] INFO basehttp 61 140157438764736 - Broken pipe from ('127.0.0.1', 51198)
+[2026-09-15 07:53:34,642] ERROR log 61 140157438764736 Internal Server Error: /health/
+[2026-09-15 07:53:34,643] ERROR basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 500 13713
+[2026-09-15 07:53:34,644] INFO basehttp 61 140157438764736 - Broken pipe from ('127.0.0.1', 49492)
+[2026-09-15 07:54:04,746] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 07:54:29,117] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 3447
+[2026-09-15 07:54:34,846] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 07:54:58,072] INFO basehttp 61 140157438764736 "POST /api/v1/user/token/ HTTP/1.1" 200 663
+[2026-09-15 07:55:05,032] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 07:55:25,538] WARNING log 61 140157438764736 Bad Request: /api/v1/achados/objetos/
+[2026-09-15 07:55:25,538] WARNING basehttp 61 140157438764736 "POST /api/v1/achados/objetos/ HTTP/1.1" 400 210
+[2026-09-15 07:55:35,424] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-15 07:55:51,973] INFO basehttp 61 140157438764736 "GET /api/v1/achados/categorias/ HTTP/1.1" 200 2
+[2026-09-15 07:56:05,564] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 07:56:18,430] INFO basehttp 61 140157438764736 "GET /api/v1/achados/categorias/ HTTP/1.1" 200 2
+[2026-09-15 07:56:35,834] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 07:56:42,452] INFO basehttp 61 140157438764736 "POST /api/v1/achados/categorias/ HTTP/1.1" 201 349
+[2026-09-15 07:57:01,722] INFO basehttp 61 140157438764736 "POST /api/v1/achados/locais/ HTTP/1.1" 201 326
+[2026-09-15 07:57:05,974] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 07:57:25,774] INFO basehttp 61 140157438764736 "POST /api/v1/achados/objetos/ HTTP/1.1" 201 537
+[2026-09-15 07:57:36,247] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 07:57:49,378] INFO basehttp 61 140157438764736 "GET /api/v1/achados/objetos/ HTTP/1.1" 200 539
+[2026-09-15 07:58:06,374] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 07:58:11,464] INFO basehttp 61 140157438764736 "PATCH /api/v1/achados/objetos/6b819f5a-401b-46fd-acad-3ef86c41d48b/ HTTP/1.1" 200 572
+[2026-09-15 07:58:36,741] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 07:59:03,357] INFO basehttp 61 140157438764736 "POST /api/v1/achados/objetos/ HTTP/1.1" 201 547
+[2026-09-15 07:59:07,354] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-15 07:59:31,902] INFO basehttp 61 140157438764736 "DELETE /api/v1/achados/objetos/13334630-46bc-42c1-a940-be6514e122bd/ HTTP/1.1" 204 0
+[2026-09-15 07:59:37,454] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:00:07,545] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:00:12,680] INFO basehttp 61 140157438764736 "GET /api/v1/achados/objetos/ HTTP/1.1" 200 574
+[2026-09-15 08:00:37,831] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 08:01:07,951] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:01:38,054] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:02:08,165] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:02:38,360] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 08:03:08,542] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:03:38,665] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:04:08,751] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:04:25,267] INFO basehttp 61 140157438764736 "POST /api/v1/user/token/ HTTP/1.1" 200 651
+[2026-09-15 08:04:38,843] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:05:08,942] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:05:09,855] WARNING log 61 140157438764736 Forbidden: /api/v1/achados/objetos/6b819f5a-401b-46fd-acad-3ef86c41d48b/
+[2026-09-15 08:05:09,855] WARNING basehttp 61 140157438764736 "PATCH /api/v1/achados/objetos/6b819f5a-401b-46fd-acad-3ef86c41d48b/ HTTP/1.1" 403 65
+[2026-09-15 08:05:39,065] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:06:09,225] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:06:39,358] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:07:09,536] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 08:07:39,640] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:08:09,745] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:08:40,029] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 08:09:10,148] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:09:40,349] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:10:10,452] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:10:40,631] INFO basehttp 61 140157438764736 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:10:49,763] INFO autoreload 61 140157952656192 /app/boilerplatejwt/urls.py changed, reloading.
+[2026-09-15 08:10:53,957] INFO autoreload 617 139747527115584 Watching for file changes with StatReloader
+[2026-09-15 08:11:01,237] INFO autoreload 617 139747527115584 /app/boilerplatejwt/urls.py changed, reloading.
+[2026-09-15 08:11:05,026] INFO autoreload 626 140470671622976 Watching for file changes with StatReloader
+[2026-09-15 08:11:10,856] INFO basehttp 626 140470157743808 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 08:11:41,041] INFO basehttp 626 140470157743808 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:11:57,796] INFO basehttp 626 140470157743808 "GET /api/docs/swagger/ HTTP/1.1" 200 4648
+[2026-09-15 08:11:58,769] INFO basehttp 626 140470157743808 "GET /api/schema/ HTTP/1.1" 200 230007
+[2026-09-15 08:12:11,150] INFO basehttp 626 140469908526784 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:12:41,236] INFO basehttp 626 140469908526784 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:13:11,371] INFO basehttp 626 140469908526784 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:13:13,903] INFO autoreload 626 140470671622976 /app/boilerplatejwt/urls.py changed, reloading.
+[2026-09-15 08:13:17,646] INFO autoreload 700 139844960219968 Watching for file changes with StatReloader
+[2026-09-15 08:13:41,737] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 08:14:11,844] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:14:41,963] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:15:12,058] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:15:42,162] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:16:12,252] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:16:42,342] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:17:12,450] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:17:42,553] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:18:12,664] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:18:42,748] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:19:12,939] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:19:43,049] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:20:13,225] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:20:43,454] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 08:21:13,569] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:21:43,661] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:22:13,868] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 08:22:44,068] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 08:22:44,667] INFO basehttp 700 139844446353088 "GET /achados/ HTTP/1.1" 200 793
+[2026-09-15 08:22:44,700] WARNING log 700 139844446353088 Not Found: /favicon.ico
+[2026-09-15 08:22:44,700] WARNING basehttp 700 139844446353088 "GET /favicon.ico HTTP/1.1" 404 4195
+[2026-09-15 08:23:14,160] INFO basehttp 700 139844066997952 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:23:44,247] INFO basehttp 700 139844066997952 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:24:14,346] INFO basehttp 700 139844066997952 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:24:44,439] INFO basehttp 700 139844066997952 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:25:14,543] INFO basehttp 700 139844066997952 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:25:44,636] INFO basehttp 700 139844066997952 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:26:14,742] INFO basehttp 700 139844066997952 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:26:44,890] INFO basehttp 700 139844066997952 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:27:15,048] INFO basehttp 700 139844066997952 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:27:45,138] INFO basehttp 700 139844066997952 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:28:15,241] INFO basehttp 700 139844066997952 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:28:45,350] INFO basehttp 700 139844066997952 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:29:15,441] INFO basehttp 700 139844066997952 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:29:45,548] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:30:15,732] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:30:45,848] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:31:15,948] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:31:46,034] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:32:16,137] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:32:46,246] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:33:16,369] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:33:46,464] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:34:16,650] INFO basehttp 700 139844446353088 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 08:34:42,831] INFO basehttp 700 139844446353088 "GET /achados/ HTTP/1.1" 200 4172
+[2026-09-15 08:34:46,838] INFO basehttp 700 139844050212544 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:35:16,946] INFO basehttp 700 139844050212544 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:35:47,045] INFO basehttp 700 139844050212544 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:36:17,165] INFO basehttp 700 139844050212544 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:36:47,362] INFO basehttp 700 139844050212544 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:37:17,638] INFO basehttp 700 139844050212544 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 08:37:23,095] INFO autoreload 700 139844960219968 /app/apps/achados/views.py changed, reloading.
+[2026-09-15 08:37:27,153] INFO autoreload 1327 139744103625536 Watching for file changes with StatReloader
+[2026-09-15 08:37:47,855] INFO basehttp 1327 139743589729984 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:37:54,555] INFO autoreload 1327 139744103625536 /app/apps/achados/views.py changed, reloading.
+[2026-09-15 08:37:58,573] INFO autoreload 1349 140644105331520 Watching for file changes with StatReloader
+[2026-09-15 08:38:00,851] INFO basehttp 1349 140643525293760 "GET /achados/ HTTP/1.1" 200 4556
+[2026-09-15 08:38:17,960] INFO basehttp 1349 140643514803904 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:38:48,161] INFO basehttp 1349 140643514803904 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:39:18,563] INFO basehttp 1349 140643514803904 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-15 08:39:49,142] INFO basehttp 1349 140643514803904 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-15 08:40:19,239] INFO basehttp 1349 140643514803904 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:40:49,346] INFO basehttp 1349 140643514803904 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:41:19,470] INFO basehttp 1349 140643514803904 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:41:49,651] INFO basehttp 1349 140643514803904 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:42:19,767] INFO basehttp 1349 140643514803904 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:42:49,929] INFO basehttp 1349 140643514803904 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:43:20,164] INFO basehttp 1349 140643525293760 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:43:50,255] INFO basehttp 1349 140643525293760 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:44:20,444] INFO basehttp 1349 140643525293760 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:44:50,543] INFO basehttp 1349 140643525293760 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:45:20,643] INFO basehttp 1349 140643525293760 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:45:50,741] INFO basehttp 1349 140643525293760 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:46:20,938] INFO basehttp 1349 140643525293760 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:46:51,460] INFO basehttp 1349 140643525293760 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 08:47:21,557] INFO basehttp 1349 140643525293760 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:47:51,646] INFO basehttp 1349 140643525293760 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:48:21,947] INFO basehttp 1349 140643525293760 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-15 08:48:52,043] INFO basehttp 1349 140643525293760 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:49:22,160] INFO basehttp 1349 140643525293760 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:49:44,141] INFO autoreload 1349 140644105331520 /app/apps/achados/views.py changed, reloading.
+[2026-09-15 08:49:48,342] INFO autoreload 1656 140554301428544 Watching for file changes with StatReloader
+[2026-09-15 08:49:52,268] INFO basehttp 1656 140553787467456 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:50:05,846] INFO autoreload 1656 140554301428544 /app/apps/achados/urls.py changed, reloading.
+[2026-09-15 08:50:09,861] INFO autoreload 1678 140121920492352 Watching for file changes with StatReloader
+[2026-09-15 08:50:22,653] INFO basehttp 1678 140121406637760 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 08:50:52,868] INFO basehttp 1678 140121406637760 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 08:51:23,230] INFO basehttp 1678 140121406637760 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-15 08:51:31,047] INFO basehttp 1678 140121406637760 "GET /achados/ HTTP/1.1" 200 4640
+[2026-09-15 08:51:36,028] ERROR log 1678 140121406637760 Internal Server Error: /achados/cadastrar/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/achados/views.py", line 36, in cadastrar_objeto
+    return render(
+           ^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: achados/cadastrar.html
+[2026-09-15 08:51:36,030] ERROR basehttp 1678 140121406637760 "GET /achados/cadastrar/ HTTP/1.1" 500 48418
+[2026-09-15 08:51:53,342] INFO basehttp 1678 140121389835968 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:52:23,443] INFO basehttp 1678 140121389835968 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:52:53,842] INFO basehttp 1678 140121389835968 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-15 08:52:57,885] INFO basehttp 1678 140121406637760 "GET /achados/ HTTP/1.1" 200 5307
+[2026-09-15 08:52:59,119] ERROR log 1678 140121406637760 Internal Server Error: /achados/cadastrar/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/contextlib.py", line 81, in inner
+    return func(*args, **kwds)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/app/apps/achados/views.py", line 36, in cadastrar_objeto
+    return render(
+           ^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: achados/cadastrar.html
+[2026-09-15 08:52:59,120] ERROR basehttp 1678 140121406637760 "GET /achados/cadastrar/ HTTP/1.1" 500 48418
+[2026-09-15 08:53:23,942] INFO basehttp 1678 140121389835968 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:53:54,443] INFO basehttp 1678 140121389835968 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-15 08:54:01,278] INFO basehttp 1678 140121406637760 "GET /achados/ HTTP/1.1" 200 5307
+[2026-09-15 08:54:02,354] INFO basehttp 1678 140121406637760 "GET /achados/cadastrar/ HTTP/1.1" 200 4284
+[2026-09-15 08:54:24,657] INFO basehttp 1678 140121389835968 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 08:54:54,739] INFO basehttp 1678 140121389835968 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:55:25,226] INFO basehttp 1678 140121389835968 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 08:55:55,525] INFO basehttp 1678 140121389835968 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 08:56:25,743] INFO basehttp 1678 140121389835968 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:56:55,932] INFO basehttp 1678 140121389835968 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:57:26,069] INFO basehttp 1678 140121389835968 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:57:56,334] INFO basehttp 1678 140121389835968 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 08:58:26,523] INFO basehttp 1678 140121389835968 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:58:49,071] INFO basehttp 1678 140121406637760 "POST /achados/cadastrar/ HTTP/1.1" 302 0
+[2026-09-15 08:58:49,088] INFO basehttp 1678 140121406637760 "GET /achados/ HTTP/1.1" 200 5307
+[2026-09-15 08:58:54,859] INFO basehttp 1678 140121406637760 "GET /achados/ HTTP/1.1" 200 5307
+[2026-09-15 08:58:55,475] INFO basehttp 1678 140121406637760 "GET /achados/ HTTP/1.1" 200 5307
+[2026-09-15 08:58:55,734] INFO basehttp 1678 140121406637760 "GET /achados/ HTTP/1.1" 200 5307
+[2026-09-15 08:58:55,783] INFO basehttp 1678 140121406637760 "GET /achados/ HTTP/1.1" 200 5307
+[2026-09-15 08:58:55,969] INFO basehttp 1678 140121406637760 "GET /achados/ HTTP/1.1" 200 5307
+[2026-09-15 08:58:56,045] INFO basehttp 1678 140121406637760 "GET /achados/ HTTP/1.1" 200 5307
+[2026-09-15 08:58:56,669] INFO basehttp 1678 140121389835968 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 08:59:27,078] INFO basehttp 1678 140121389835968 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-15 08:59:57,165] INFO basehttp 1678 140121389835968 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:00:27,435] INFO basehttp 1678 140121389835968 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 09:00:55,643] INFO autoreload 1678 140121920492352 /app/apps/achados/views.py changed, reloading.
+[2026-09-15 09:01:00,544] INFO autoreload 1958 140133352252224 Watching for file changes with StatReloader
+[2026-09-15 09:01:27,959] INFO basehttp 1958 140132770379456 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:01:28,939] INFO autoreload 1958 140133352252224 /app/apps/achados/views.py changed, reloading.
+[2026-09-15 09:01:33,331] INFO autoreload 1987 140199059129152 Watching for file changes with StatReloader
+[2026-09-15 09:06:10,394] INFO autoreload 1987 140199059129152 /app/apps/achados/views.py changed, reloading.
+[2026-09-15 09:06:14,831] INFO autoreload 2059 140104033452864 Watching for file changes with StatReloader
+[2026-09-15 09:06:28,765] INFO basehttp 2059 140103519495872 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:06:59,567] INFO autoreload 61 140471795671872 Watching for file changes with StatReloader
+[2026-09-15 09:07:01,929] INFO basehttp 61 140471282865856 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:07:32,050] INFO basehttp 61 140471282865856 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:07:41,262] INFO basehttp 61 140471282865856 "GET /achados/ HTTP/1.1" 200 6187
+[2026-09-15 09:07:43,016] INFO basehttp 61 140471282865856 "GET /achados/login/ HTTP/1.1" 200 3390
+[2026-09-15 09:08:02,233] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:08:32,351] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:09:02,539] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:09:32,732] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:10:02,936] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:10:33,064] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:11:03,145] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:11:33,248] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:12:03,368] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:12:23,735] INFO basehttp 61 140471282865856 "POST /achados/login/ HTTP/1.1" 200 3493
+[2026-09-15 09:12:33,570] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 09:12:36,660] INFO basehttp 61 140471282865856 "POST /achados/login/ HTTP/1.1" 302 0
+[2026-09-15 09:12:36,702] INFO basehttp 61 140471282865856 "GET /achados/ HTTP/1.1" 200 6328
+[2026-09-15 09:13:03,648] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:13:33,848] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:14:04,555] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-15 09:14:30,130] INFO basehttp 61 140471282865856 "GET /achados/ HTTP/1.1" 200 6323
+[2026-09-15 09:14:31,194] INFO basehttp 61 140471282865856 "GET /achados/cadastrar/ HTTP/1.1" 200 4279
+[2026-09-15 09:14:34,673] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:15:04,836] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:15:35,041] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:16:05,150] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:16:35,341] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:17:05,848] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-15 09:17:35,956] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:18:06,247] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 09:18:36,372] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:19:06,644] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:19:37,087] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-15 09:20:05,248] INFO basehttp 61 140471282865856 "GET /achados/cadastrar/ HTTP/1.1" 200 4743
+[2026-09-15 09:20:07,437] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 09:20:37,738] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 09:21:07,853] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:21:27,401] INFO basehttp 61 140471282865856 "GET /achados/ HTTP/1.1" 200 6323
+[2026-09-15 09:21:28,929] INFO basehttp 61 140471282865856 "GET /achados/ HTTP/1.1" 200 6323
+[2026-09-15 09:21:30,545] INFO basehttp 61 140471282865856 "GET /achados/ HTTP/1.1" 200 6323
+[2026-09-15 09:21:38,045] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:22:08,264] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 09:22:09,271] INFO basehttp 61 140471282865856 "GET /achados/cadastrar/ HTTP/1.1" 200 4743
+[2026-09-15 09:22:38,349] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:22:52,991] INFO basehttp 61 140471282865856 "POST /achados/cadastrar/ HTTP/1.1" 302 0
+[2026-09-15 09:22:53,034] INFO basehttp 61 140471282865856 "GET /achados/ HTTP/1.1" 200 6973
+[2026-09-15 09:23:08,581] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 09:23:39,054] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-15 09:24:09,150] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:24:39,243] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:25:09,353] INFO basehttp 61 140471183595200 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:25:31,357] INFO autoreload 61 140471795671872 /app/apps/achados/views.py changed, reloading.
+[2026-09-15 09:25:35,546] INFO autoreload 583 140409598079808 Watching for file changes with StatReloader
+[2026-09-15 09:25:39,551] INFO basehttp 583 140409084217024 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:25:45,688] INFO autoreload 583 140409598079808 /app/apps/achados/views.py changed, reloading.
+[2026-09-15 09:25:49,944] INFO autoreload 604 140558493807424 Watching for file changes with StatReloader
+[2026-09-15 09:26:09,769] INFO basehttp 604 140557905032896 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 09:26:10,735] INFO autoreload 604 140558493807424 /app/apps/achados/urls.py changed, reloading.
+[2026-09-15 09:26:14,940] INFO autoreload 626 140714229728064 Watching for file changes with StatReloader
+[2026-09-15 09:26:30,444] INFO autoreload 626 140714229728064 /app/apps/achados/urls.py changed, reloading.
+[2026-09-15 09:26:34,355] INFO autoreload 635 140355966604096 Watching for file changes with StatReloader
+[2026-09-15 09:26:40,152] INFO basehttp 635 140355452720832 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-15 09:26:41,646] INFO autoreload 635 140355966604096 /app/apps/achados/urls.py changed, reloading.
+[2026-09-15 09:26:45,864] INFO autoreload 657 139665666835264 Watching for file changes with StatReloader
+[2026-09-15 09:27:10,260] INFO basehttp 657 139665085560512 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:27:40,479] INFO basehttp 657 139665085560512 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 09:28:10,574] INFO basehttp 657 139665085560512 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:28:40,667] INFO basehttp 657 139665085560512 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:29:01,274] INFO autoreload 657 139665666835264 /app/apps/achados/urls.py changed, reloading.
+[2026-09-15 09:29:05,368] INFO autoreload 718 140324752737088 Watching for file changes with StatReloader
+[2026-09-15 09:29:10,861] INFO basehttp 718 140324164859584 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 09:29:40,952] INFO basehttp 718 140324164859584 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:29:56,004] INFO basehttp 718 140324164859584 "GET /achados/cadastrar/ HTTP/1.1" 200 4743
+[2026-09-15 09:29:58,458] INFO basehttp 718 140324164859584 "GET /achados/ HTTP/1.1" 200 6973
+[2026-09-15 09:30:11,347] INFO basehttp 718 140324131288768 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 09:30:41,756] INFO basehttp 718 140324131288768 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 09:31:11,322] INFO basehttp 718 140324164859584 "GET /achados/ HTTP/1.1" 200 7629
+[2026-09-15 09:31:11,955] INFO basehttp 718 140324131288768 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:31:14,552] INFO basehttp 718 140324164859584 "GET /achados/editar/62eac6a5-fb39-4296-909f-c94b75f6f989/ HTTP/1.1" 200 4789
+[2026-09-15 09:31:16,939] INFO basehttp 718 140324164859584 "GET /achados/ HTTP/1.1" 200 7629
+[2026-09-15 09:31:42,072] INFO basehttp 718 140324131288768 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:32:12,154] INFO basehttp 718 140324131288768 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:32:31,845] INFO autoreload 718 140324752737088 /app/apps/achados/views.py changed, reloading.
+[2026-09-15 09:32:36,149] INFO autoreload 820 140697078346560 Watching for file changes with StatReloader
+[2026-09-15 09:32:39,177] INFO autoreload 820 140697078346560 /app/apps/achados/views.py changed, reloading.
+[2026-09-15 09:32:43,555] INFO autoreload 829 140025838433088 Watching for file changes with StatReloader
+[2026-09-15 09:33:54,061] INFO autoreload 829 140025838433088 /app/apps/achados/views.py changed, reloading.
+[2026-09-15 09:33:58,230] INFO autoreload 859 140570883281728 Watching for file changes with StatReloader
+[2026-09-15 09:34:22,497] INFO autoreload 859 140570883281728 /app/apps/achados/forms.py changed, reloading.
+[2026-09-15 09:34:26,534] INFO autoreload 875 140292867490624 Watching for file changes with StatReloader
+[2026-09-15 09:36:42,550] INFO autoreload 875 140292867490624 /app/apps/achados/urls.py changed, reloading.
+[2026-09-15 09:36:46,934] INFO autoreload 918 139989314933568 Watching for file changes with StatReloader
+[2026-09-15 09:37:26,326] INFO autoreload 61 139912670520128 Watching for file changes with StatReloader
+[2026-09-15 09:37:27,392] INFO basehttp 61 139912158734016 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-15 09:37:39,891] INFO basehttp 61 139912158734016 "GET / HTTP/1.1" 302 0
+[2026-09-15 09:37:39,896] INFO basehttp 61 139912158734016 "GET /admin HTTP/1.1" 301 0
+[2026-09-15 09:37:39,907] INFO basehttp 61 139912158734016 "GET /admin/ HTTP/1.1" 302 0
+[2026-09-15 09:37:39,942] INFO basehttp 61 139912158734016 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 16923
+[2026-09-15 09:37:39,980] INFO basehttp 61 139912158734016 "GET /staticfiles/admin/css/base.css HTTP/1.1" 200 21544
+[2026-09-15 09:37:39,989] INFO basehttp 61 139912150341312 "GET /staticfiles/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+[2026-09-15 09:37:39,990] INFO basehttp 61 139911780890304 "GET /staticfiles/admin_interface/css/changelist.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1246
+[2026-09-15 09:37:39,990] INFO basehttp 61 139912125130432 "GET /staticfiles/admin/css/dark_mode.css HTTP/1.1" 200 2682
+[2026-09-15 09:37:39,990] INFO basehttp 61 139911771449024 "GET /staticfiles/admin_interface/css/change-form.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1125
+[2026-09-15 09:37:39,990] INFO basehttp 61 139912141948608 "GET /staticfiles/admin_interface/css/admin-interface.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 17164
+[2026-09-15 09:37:39,996] INFO basehttp 61 139912150341312 "GET /staticfiles/admin_interface/css/header.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1031
+[2026-09-15 09:37:39,997] INFO basehttp 61 139911780890304 "GET /staticfiles/admin_interface/css/fieldsets.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 499
+[2026-09-15 09:37:39,997] INFO basehttp 61 139912141948608 "GET /staticfiles/admin_interface/css/jquery.ui.tabs.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 5558
+[2026-09-15 09:37:39,997] INFO basehttp 61 139912125130432 "GET /staticfiles/admin_interface/css/file-upload.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1169
+[2026-09-15 09:37:39,997] INFO basehttp 61 139911771449024 "GET /staticfiles/admin_interface/css/inlines.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 2715
+[2026-09-15 09:37:40,000] INFO basehttp 61 139911771449024 "GET /staticfiles/admin_interface/css/list-filter.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 614
+[2026-09-15 09:37:40,000] INFO basehttp 61 139912141948608 "GET /staticfiles/admin_interface/css/language-chooser.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1734
+[2026-09-15 09:37:40,002] INFO basehttp 61 139912141948608 "GET /staticfiles/admin_interface/css/list-filter-dropdown.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 691
+[2026-09-15 09:37:40,024] INFO basehttp 61 139912158734016 "GET /staticfiles/admin_interface/css/login.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1240
+[2026-09-15 09:37:40,027] INFO basehttp 61 139912158734016 "GET /staticfiles/admin_interface/css/modules.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 404
+[2026-09-15 09:37:40,041] INFO basehttp 61 139912150341312 "GET /staticfiles/admin_interface/css/nav-sidebar.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 2025
+[2026-09-15 09:37:40,043] INFO basehttp 61 139912150341312 "GET /staticfiles/admin_interface/css/paginator.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 797
+[2026-09-15 09:37:40,049] INFO basehttp 61 139911771449024 "GET /staticfiles/admin_interface/css/rtl.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1016
+[2026-09-15 09:37:40,049] INFO basehttp 61 139912141948608 "GET /staticfiles/admin_interface/css/tabbed-changeform.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1895
+[2026-09-15 09:37:40,049] INFO basehttp 61 139912125130432 "GET /staticfiles/admin_interface/css/sticky-form-controls.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 2437
+[2026-09-15 09:37:40,050] INFO basehttp 61 139911780890304 "GET /staticfiles/admin_interface/css/object-tools.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 319
+[2026-09-15 09:37:40,053] INFO basehttp 61 139912141948608 "GET /staticfiles/admin_interface/css/widgets.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 3944
+[2026-09-15 09:37:40,053] INFO basehttp 61 139912125130432 "GET /staticfiles/admin_interface/css/third-party/ckeditor.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 2720
+[2026-09-15 09:37:40,056] INFO basehttp 61 139912141948608 "GET /staticfiles/admin_interface/css/third-party/json-widget.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 993
+[2026-09-15 09:37:40,056] INFO basehttp 61 139912125130432 "GET /staticfiles/admin_interface/css/third-party/import-export.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 189
+[2026-09-15 09:37:40,073] INFO basehttp 61 139912158734016 "GET /staticfiles/admin_interface/css/third-party/modeltranslation.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 356
+[2026-09-15 09:37:40,089] INFO basehttp 61 139912150341312 "GET /staticfiles/admin_interface/css/third-party/rangefilter.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1238
+[2026-09-15 09:37:40,092] INFO basehttp 61 139912150341312 "GET /staticfiles/admin_interface/css/third-party/sorl-thumbnail.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1451
+[2026-09-15 09:37:40,096] INFO basehttp 61 139911780890304 "GET /staticfiles/admin_interface/css/third-party/tinymce.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 78
+[2026-09-15 09:37:40,097] INFO basehttp 61 139911771449024 "GET /staticfiles/admin_interface/css/third-party/streamfield.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 6257
+[2026-09-15 09:37:40,097] INFO basehttp 61 139912150341312 "GET /staticfiles/admin/css/login.css HTTP/1.1" 200 958
+[2026-09-15 09:37:40,099] INFO basehttp 61 139911771449024 "GET /staticfiles/admin/css/responsive.css HTTP/1.1" 200 17905
+[2026-09-15 09:37:40,104] INFO basehttp 61 139912141948608 "GET /staticfiles/admin/css/responsive.css?nocache=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 17905
+[2026-09-15 09:37:40,105] INFO basehttp 61 139912125130432 "GET /staticfiles/admin/css/responsive_rtl.css?nocache=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1864
+[2026-09-15 09:37:40,105] INFO basehttp 61 139911771449024 "GET /staticfiles/admin_interface/foldable-apps/foldable-apps.css?nocache=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1955
+[2026-09-15 09:37:40,109] INFO basehttp 61 139911771449024 "GET /staticfiles/admin_interface/related-modal/related-modal.css?v=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 2867
+[2026-09-15 09:37:40,109] INFO basehttp 61 139912141948608 "GET /staticfiles/admin_interface/foldable-apps/foldable-apps.js?nocache=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 1750
+[2026-09-15 09:37:40,109] INFO basehttp 61 139912125130432 "GET /staticfiles/admin_interface/magnific-popup/magnific-popup.css?nocache=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 6951
+[2026-09-15 09:37:40,115] WARNING basehttp 61 139912125130432 "GET /staticfiles/logo/logo.png HTTP/1.1" 404 1907
+[2026-09-15 09:37:40,115] INFO basehttp 61 139912141948608 "GET /staticfiles/admin_interface/related-modal/related-modal.js?nocache=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 6919
+[2026-09-15 09:37:40,117] INFO basehttp 61 139911771449024 "GET /staticfiles/admin_interface/magnific-popup/jquery.magnific-popup.js?nocache=78bcb6adf88786f562201b6cc6301c04e13a3cce7535200e0f8234c9 HTTP/1.1" 200 60830
+[2026-09-15 09:37:40,183] INFO basehttp 61 139911780890304 "GET /staticfiles/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+[2026-09-15 09:37:40,184] INFO basehttp 61 139912150341312 "GET /staticfiles/admin/js/theme.js HTTP/1.1" 200 1943
+[2026-09-15 09:37:40,192] WARNING log 61 139912150341312 Not Found: /favicon.ico
+[2026-09-15 09:37:40,192] WARNING basehttp 61 139912150341312 "GET /favicon.ico HTTP/1.1" 404 4193
+[2026-09-15 09:37:51,148] INFO basehttp 61 139912125130432 "GET /achados/ HTTP/1.1" 200 7040
+[2026-09-15 09:37:57,505] INFO basehttp 61 139911763056320 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:38:27,691] INFO basehttp 61 139911763056320 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:38:57,888] INFO basehttp 61 139911763056320 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:39:04,674] INFO basehttp 61 139912125130432 "GET /achados/cadastrar/ HTTP/1.1" 200 4743
+[2026-09-15 09:39:28,010] INFO basehttp 61 139911763056320 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:39:46,917] INFO basehttp 61 139912125130432 "GET /achados/ HTTP/1.1" 200 7040
+[2026-09-15 09:39:48,464] INFO basehttp 61 139912125130432 "GET /achados/ HTTP/1.1" 200 7040
+[2026-09-15 09:39:48,703] INFO basehttp 61 139912125130432 "GET /achados/ HTTP/1.1" 200 7040
+[2026-09-15 09:39:49,013] INFO basehttp 61 139912125130432 "GET /achados/ HTTP/1.1" 200 7040
+[2026-09-15 09:39:49,137] INFO basehttp 61 139912125130432 "GET /achados/ HTTP/1.1" 200 7040
+[2026-09-15 09:39:49,273] INFO basehttp 61 139912125130432 "GET /achados/ HTTP/1.1" 200 7040
+[2026-09-15 09:39:55,022] INFO basehttp 61 139912125130432 "GET /achados/ HTTP/1.1" 200 7040
+[2026-09-15 09:39:58,111] INFO basehttp 61 139911763056320 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:40:28,297] INFO basehttp 61 139911763056320 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:40:58,420] INFO basehttp 61 139911763056320 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:41:15,040] INFO basehttp 61 139912125130432 "GET /achados/ HTTP/1.1" 200 6378
+[2026-09-15 09:41:28,516] INFO basehttp 61 139911763056320 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:41:58,697] INFO basehttp 61 139911763056320 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:42:28,803] INFO basehttp 61 139911763056320 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:42:58,905] INFO basehttp 61 139911763056320 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:43:29,001] INFO basehttp 61 139911763056320 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:43:59,101] INFO basehttp 61 139911763056320 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:44:29,299] INFO basehttp 61 139911763056320 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:44:59,429] INFO basehttp 61 139912141948608 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:45:29,512] INFO basehttp 61 139912141948608 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:45:59,731] INFO basehttp 61 139912141948608 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 09:46:29,823] INFO basehttp 61 139912141948608 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:46:59,896] INFO basehttp 61 139912141948608 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:47:30,003] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:48:00,103] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:48:30,198] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:49:00,599] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-15 09:49:30,704] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:50:00,803] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:50:30,906] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:51:00,995] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:51:31,096] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:52:01,408] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 09:52:31,495] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:53:01,599] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:53:31,701] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:54:01,894] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 09:54:32,000] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:55:02,109] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:55:32,196] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:56:02,430] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 09:56:32,585] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:57:02,704] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:57:32,803] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:58:02,897] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:58:32,998] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 09:59:03,205] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 09:59:33,296] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 10:00:03,402] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 10:00:33,511] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 10:03:22,834] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 10:03:53,315] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-15 10:04:23,532] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 10:04:53,812] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 10:05:23,994] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 10:05:54,216] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 10:06:24,390] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 10:06:54,507] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 10:07:24,811] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 10:07:54,899] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 10:08:24,998] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 10:08:55,133] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 10:09:25,204] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 10:09:55,299] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 10:10:25,603] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-15 10:10:55,896] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 10:11:26,028] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 10:11:56,227] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13689
+[2026-09-15 10:12:26,305] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 10:12:56,405] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 10:13:26,820] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13690
+[2026-09-15 10:13:57,017] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 10:14:27,102] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 10:14:57,297] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
+[2026-09-15 10:15:27,399] INFO basehttp 61 139912125130432 "GET /health/ HTTP/1.1" 200 13688
