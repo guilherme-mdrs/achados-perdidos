@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+}
+
+header {
+    background: #183153;
+    color: white;
+    padding: 22px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 { font-size: 24px; }
+
+header p {
+    font-size: 13px;
+    margin-top: 5px;
+    color: #dbe4ef;
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.usuario span { font-size: 14px; }
+
+.container {
+    width: 84%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.topo h2 {
+    font-size: 26px;
+    margin-bottom: 6px;
+}
+
+.topo p { color: #777; }
+
+.btn {
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 12px 18px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover { background: #1d4ed8; }
+.btn-sair { background: #dc3545; }
+.btn-sair:hover { background: #b02a37; }
+
+.filtros {
+    background: white;
+    padding: 18px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.filtros input {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.objetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 22px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
+}
+
+.card h3 {
+    font-size: 19px;
+    margin-bottom: 14px;
+}
+
+.card p {
+    margin-bottom: 9px;
+    font-size: 14px;
+    color: #555;
+}
+
+.vazio {
+    background: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    color: #777;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #888;
+    font-size: 13px;
+}
+
+@media (max-width: 700px) {
+    header, .topo {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}
