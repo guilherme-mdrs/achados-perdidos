@@ -1,0 +1,45 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Categorias</title>
+    <link rel="stylesheet" href="{% static 'achados/css/style.css' %}">
+</head>
+
+<body>
+    <header>
+        <h1>Categorias</h1>
+        <a href="{% url 'achados:index' %}" class="btn">Voltar</a>
+    </header>
+
+    <main class="container">
+        <div class="topo">
+            <h2>Categorias cadastradas</h2>
+            <a href="{% url 'achados:cadastrar_categoria' %}" class="btn">
+                + Nova categoria
+            </a>
+        </div>
+
+        <div class="objetos">
+            {% for categoria in categorias %}
+                <div class="card">
+                    <h3>{{ categoria.nome }}</h3>
+                    <p>{{ categoria.descricao|default:"Sem descrição" }}</p>
+
+                    <a href="{% url 'achados:editar_categoria' categoria.pk %}" class="btn">
+                        Editar
+                    </a>
+
+                    <a href="{% url 'achados:excluir_categoria' categoria.pk %}" class="btn btn-sair">
+                        Excluir
+                    </a>
+                </div>
+            {% empty %}
+                <p>Nenhuma categoria cadastrada.</p>
+            {% endfor %}
+        </div>
+    </main>
+</body>
+</html>

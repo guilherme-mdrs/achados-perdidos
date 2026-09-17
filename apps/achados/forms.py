@@ -1,5 +1,6 @@
 from django import forms
-from .models import Objeto
+
+from .models import Categoria, Local, Objeto
 
 
 class ObjetoForm(forms.ModelForm):
@@ -11,4 +12,22 @@ class ObjetoForm(forms.ModelForm):
             "categoria",
             "local",
             "foto",
+        ]
+
+
+class CategoriaForm(forms.ModelForm):
+    class Meta:
+        model = Categoria
+        fields = [
+            "nome",
+            "descricao",
+        ]
+
+
+class LocalForm(forms.ModelForm):
+    class Meta:
+        model = Local
+        fields = [
+            "nome",
+            "descricao",
         ]

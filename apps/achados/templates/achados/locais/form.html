@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ titulo }}</title>
+    <link rel="stylesheet" href="{% static 'achados/css/style.css' %}">
+</head>
+
+<body>
+    <header>
+        <h1>{{ titulo }}</h1>
+        <a href="{% url 'achados:listar_locais' %}" class="btn">Voltar</a>
+    </header>
+
+    <main class="container">
+        <div class="card">
+            <form method="POST">
+                {% csrf_token %}
+                {{ form.as_p }}
+
+                <button type="submit" class="btn">Salvar</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

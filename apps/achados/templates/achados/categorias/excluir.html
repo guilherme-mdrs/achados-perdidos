@@ -1,0 +1,30 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Excluir categoria</title>
+    <link rel="stylesheet" href="{% static 'achados/css/style.css' %}">
+</head>
+
+<body>
+    <header>
+        <h1>Excluir categoria</h1>
+    </header>
+
+    <main class="container">
+        <div class="card">
+            <h3>Deseja excluir "{{ categoria.nome }}"?</h3>
+
+            <form method="POST">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-sair">Excluir</button>
+                <a href="{% url 'achados:listar_categorias' %}" class="btn">
+                    Cancelar
+                </a>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

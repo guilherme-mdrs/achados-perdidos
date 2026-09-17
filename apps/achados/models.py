@@ -60,4 +60,4 @@ class Objeto(BaseModel):
     )
 
     def __str__(self):
-        return self.nome
+        return self.nome  

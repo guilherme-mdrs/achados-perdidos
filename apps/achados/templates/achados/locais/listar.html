@@ -1,0 +1,45 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Locais</title>
+    <link rel="stylesheet" href="{% static 'achados/css/style.css' %}">
+</head>
+
+<body>
+    <header>
+        <h1>Locais</h1>
+        <a href="{% url 'achados:index' %}" class="btn">Voltar</a>
+    </header>
+
+    <main class="container">
+        <div class="topo">
+            <h2>Locais cadastrados</h2>
+            <a href="{% url 'achados:cadastrar_local' %}" class="btn">
+                + Novo local
+            </a>
+        </div>
+
+        <div class="objetos">
+            {% for local in locais %}
+                <div class="card">
+                    <h3>{{ local.nome }}</h3>
+                    <p>{{ local.descricao|default:"Sem descrição" }}</p>
+
+                    <a href="{% url 'achados:editar_local' local.pk %}" class="btn">
+                        Editar
+                    </a>
+
+                    <a href="{% url 'achados:excluir_local' local.pk %}" class="btn btn-sair">
+                        Excluir
+                    </a>
+                </div>
+            {% empty %}
+                <p>Nenhum local cadastrado.</p>
+            {% endfor %}
+        </div>
+    </main>
+</body>
+</html>

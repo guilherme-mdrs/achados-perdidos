@@ -20,24 +20,41 @@
         {% if request.user.is_authenticated %}
             <div class="usuario">
                 <span>{{ request.user.email }}</span>
-                <a href="{% url 'achados:logout' %}" class="btn btn-sair">Sair</a>
+                <a href="{% url 'achados:logout' %}" class="btn btn-sair">
+                    Sair
+                </a>
             </div>
         {% else %}
-            <a href="{% url 'achados:login' %}" class="btn">Entrar</a>
+            <a href="{% url 'achados:login' %}" class="btn">
+                Entrar
+            </a>
         {% endif %}
     </header>
 
     <main class="container">
+
         <div class="topo">
             <div>
                 <h2>Objetos encontrados</h2>
                 <p>Consulte os objetos encontrados na instituição.</p>
             </div>
 
-            <a href="{% if request.user.is_authenticated %}{% url 'achados:cadastrar' %}{% else %}{% url 'achados:login' %}{% endif %}"
-               class="btn">
-                + Cadastrar objeto
-            </a>
+            <div>
+                {% if request.user.is_authenticated %}
+                    <a href="{% url 'achados:listar_categorias' %}" class="btn">
+                        Categorias
+                    </a>
+
+                    <a href="{% url 'achados:listar_locais' %}" class="btn">
+                        Locais
+                    </a>
+                {% endif %}
+
+                <a href="{% if request.user.is_authenticated %}{% url 'achados:cadastrar' %}{% else %}{% url 'achados:login' %}{% endif %}"
+                   class="btn">
+                    + Cadastrar objeto
+                </a>
+            </div>
         </div>
 
         <div class="filtros">
@@ -52,9 +69,18 @@
             {% for objeto in objetos %}
                 <div class="card">
                     <h3>{{ objeto.nome }}</h3>
+
                     <p>{{ objeto.descricao }}</p>
-                    <p><strong>Categoria:</strong> {{ objeto.categoria.nome }}</p>
-                    <p><strong>Local encontrado:</strong> {{ objeto.local.nome }}</p>
+
+                    <p>
+                        <strong>Categoria:</strong>
+                        {{ objeto.categoria.nome }}
+                    </p>
+
+                    <p>
+                        <strong>Local encontrado:</strong>
+                        {{ objeto.local.nome }}
+                    </p>
                 </div>
             {% empty %}
                 <div class="vazio">
@@ -63,20 +89,30 @@
                 </div>
             {% endfor %}
         </div>
+
     </main>
 
-    <footer>Sistema de Achados e Perdidos</footer>
+    <footer>
+        Sistema de Achados e Perdidos
+    </footer>
 
     <script>
         function pesquisarObjeto() {
-            const pesquisa = document.getElementById("pesquisa").value.toLowerCase();
+            const pesquisa = document
+                .getElementById("pesquisa")
+                .value
+                .toLowerCase();
+
             const cards = document.querySelectorAll(".card");
 
             cards.forEach(function(card) {
                 const texto = card.innerText.toLowerCase();
-                card.style.display = texto.includes(pesquisa) ? "block" : "none";
+
+                card.style.display =
+                    texto.includes(pesquisa) ? "block" : "none";
             });
         }
     </script>
+
 </body>
 </html>
