@@ -6,8 +6,10 @@ from .views import (
     cadastrar_objeto,
     editar_categoria,
     editar_local,
+    editar_objeto,
     excluir_categoria,
     excluir_local,
+    excluir_objeto,
     index,
     listar_categorias,
     listar_locais,
@@ -18,16 +20,23 @@ from .views import (
 app_name = "achados"
 
 urlpatterns = [
+    # objetos
     path("", index, name="index"),
     path("cadastrar/", cadastrar_objeto, name="cadastrar"),
+    path("objetos/<int:pk>/editar/", editar_objeto, name="editar_objeto"),
+    path("objetos/<int:pk>/excluir/", excluir_objeto, name="excluir_objeto"),
+
+    # login
     path("login/", login_usuario, name="login"),
     path("sair/", logout_usuario, name="logout"),
 
+    # categorias
     path("categorias/", listar_categorias, name="listar_categorias"),
     path("categorias/cadastrar/", cadastrar_categoria, name="cadastrar_categoria"),
     path("categorias/<int:pk>/editar/", editar_categoria, name="editar_categoria"),
     path("categorias/<int:pk>/excluir/", excluir_categoria, name="excluir_categoria"),
 
+    # locais
     path("locais/", listar_locais, name="listar_locais"),
     path("locais/cadastrar/", cadastrar_local, name="cadastrar_local"),
     path("locais/<int:pk>/editar/", editar_local, name="editar_local"),

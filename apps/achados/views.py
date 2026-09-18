@@ -1,5 +1,5 @@
 from django.contrib.auth import authenticate, login, logout
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 
 from .forms import CategoriaForm, LocalForm, ObjetoForm
 from .models import Categoria, Local, Objeto
@@ -15,6 +15,7 @@ def index(request):
     )
 
 
+#objetos
 def cadastrar_objeto(request):
     if not request.user.is_authenticated:
         return redirect("achados:login")
@@ -39,6 +40,55 @@ def cadastrar_objeto(request):
     )
 
 
+def editar_objeto(request, pk):
+    if not request.user.is_authenticated:
+        return redirect("achados:login")
+
+    objeto = Objeto.objects.get(pk=pk)
+
+    if request.method == "POST":
+        form = ObjetoForm(
+            request.POST,
+            request.FILES,
+            instance=objeto,
+        )
+
+        if form.is_valid():
+            form.save()
+            return redirect("achados:index")
+
+    else:
+        form = ObjetoForm(instance=objeto)
+
+    return render(
+        request,
+        "achados/objetos/form.html",
+        {
+            "form": form,
+            "titulo": "Editar objeto",
+            "objeto": objeto,
+        },
+    )
+
+
+def excluir_objeto(request, pk):
+    if not request.user.is_authenticated:
+        return redirect("achados:login")
+
+    objeto = get_object_or_404(Objeto, pk=pk)
+
+    if request.method == "POST":
+        objeto.delete()
+        return redirect("achados:index")
+
+    return render(
+        request,
+        "achados/objetos/excluir.html",
+        {"objeto": objeto},
+    )
+
+
+#login/logout
 def login_usuario(request):
     erro = None
 
@@ -67,8 +117,10 @@ def login_usuario(request):
 
 def logout_usuario(request):
     logout(request)
-    return redirect("achados:index") 
+    return redirect("achados:index")
 
+
+#listar
 def listar_categorias(request):
     if not request.user.is_authenticated:
         return redirect("achados:login")
@@ -138,8 +190,9 @@ def excluir_categoria(request, pk):
         request,
         "achados/categorias/excluir.html",
         {"categoria": categoria},
-    ) 
+    )
 
+#local
 def listar_locais(request):
     if not request.user.is_authenticated:
         return redirect("achados:login")

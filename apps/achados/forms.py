@@ -11,6 +11,9 @@ class ObjetoForm(forms.ModelForm):
             "descricao",
             "categoria",
             "local",
+            "status",
+            "devolvido_para",
+            "matricula_recebedor",
             "foto",
         ]
 

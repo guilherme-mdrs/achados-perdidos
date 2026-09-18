@@ -35,6 +35,16 @@ class Objeto(BaseModel):
         default="PENDENTE",
     )
 
+    devolvido_para = models.CharField(
+    max_length=150,
+    blank=True,
+)
+
+    matricula_recebedor = models.CharField(
+    max_length=30,
+    blank=True,
+)
+
     foto = models.ImageField(
         upload_to="objetos/",
         blank=True,

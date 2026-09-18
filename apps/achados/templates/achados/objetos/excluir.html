@@ -1,0 +1,42 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Excluir objeto</title>
+
+    <link rel="stylesheet" href="{% static 'achados/css/style.css' %}">
+</head>
+
+<body>
+
+<header>
+    <div>
+        <h1>Excluir objeto</h1>
+        <p>Confirme a exclusão do objeto.</p>
+    </div>
+</header>
+
+<main class="container">
+
+    <h2>Tem certeza que deseja excluir "{{ objeto.nome }}"?</h2>
+
+    <form method="POST">
+        {% csrf_token %}
+
+        <button type="submit" class="btn">
+            Excluir
+        </button>
+
+        <a href="{% url 'achados:index' %}" class="btn">
+            Cancelar
+        </a>
+    </form>
+
+</main>
+
+</body>
+</html>
